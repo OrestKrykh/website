@@ -46,15 +46,18 @@ header div {
     display:flex;
     justify-content:center;
     align-items:center;
+    border:2px double white;
+    background-color:black;
 }
 .first-heading{
     font-size:25px;
-    color:red;
+    color:White;
 }
 #my-own-photo {
     width:275px;
     height:320px;
 }
+
 .headering {
     margin-top:0;
     font-size:25px;

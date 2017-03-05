@@ -16,6 +16,12 @@ header {
     justify-content:center;
     align-items:center;
 }
+header div {
+    margin: 0 auto;
+    padding:0;
+    border:2px double white;
+    background-color:black;
+}
 nav {
     margin:0 auto;
     color:white;
@@ -43,7 +49,7 @@ nav a:hover {
 }
 .first-heading{
     font-size:45px;
-    color:red;
+    color:white;
 }
 #my-own-photo {
     width:275px;
