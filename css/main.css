@@ -1,51 +1,23 @@
 body {
+    max-width:1200px;
     margin: 0 auto;
     background-color:white;
 }
-
-header {
+#begin {
     margin: 0 auto;
-    max-width:1500px;
+    max-width:1200px;
     height:700px;
     background-image:url("../background.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-     display:flex;
+    display:flex;
     justify-content:center;
     align-items:center;
 }
-header div {
-    margin: 0 auto;
-    padding:0;
-    border:2px double white;
-    background-color:rgba(27, 27, 28,0.5);
-}
-nav {
-    margin:0 auto;
-    color:white;
-    background-color:black;
-    background-size:cover;
-    height:40px;
-    width:1500px;
-    position:fixed;
-    z-index:1;
-    padding-bottom:7px;
-    }
-nav li {
-    color:white;
-    display:inline;
-    font-size:25px;
-    padding-right:15px;
-}
-nav a {
-    text-decoration: none;
-    color:white;
-}
-nav a:hover {
-    text-decoration: none;
-    border-bottom:2px double white;
+.navbar-inverse{
+    margin-bottom:0;
 }
 .first-heading{
     font-size:45px;

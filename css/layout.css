@@ -1,8 +1,9 @@
 body {
-    margin: 0 auto;
-    background-color:#F6F6F6;
+    margin:0 auto;
+    max-width:1200px
+    background-color:white;
 }
-header {
+#begin {
     margin: 0 auto;
     max-width:1500px;
     height:700px;
@@ -14,45 +15,10 @@ header {
     justify-content:center;
     align-items:center;
 }
-nav {
-    padding-left:1%;
-    margin: 0 auto;
-    color:white;
-    height:40px;
-    background-color:black;
-    background-size:cover;
-    width:600px;
-    position:fixed;
-    z-index:1;
-    padding-bottom:7px;
+.navbar-inverse{
+    margin-bottom:0;
 }
-nav ul {
-    padding-left:1%;
-}
-nav li {
-    color:white;
-    display:inline;
-    font-size:25px;
-    padding-right:10px;
-}
-nav a {
-    text-decoration: none;
-    color:white;
-    padding-bottom:5
-}
-nav a:hover {
-    text-decoration: none;
-    border-bottom:2px double white;
-}
-header div {
-    margin: 0 auto;
-    padding:0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border:2px double white;
-    background-color:black;
-}
+
 .first-heading{
     font-size:25px;
     color:White;
