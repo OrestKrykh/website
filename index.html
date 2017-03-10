@@ -47,8 +47,10 @@
                 <h2 id="about-me" class="headering">About Me</h2>
             </a>
         </div>
-            <div>
-                <img src="img/orest.png" id="my-own-photo" alt="orest krykh">
+            <div id="h2">
+                <div>
+                    <img src="img/orest.png" id="my-own-photo" alt="orest krykh">
+                </div>
                 <div class="text">
                     <h2 id="personal-name" class="text">Orest Krykh</h2><br>
                     <p class="text">Let me introduce myself.I was born on the 3th of May 1995. I am a student of Lviv Polytechnic National University.<br> I live in lviv. 
@@ -71,15 +73,28 @@
                 <progress value="35" max="100"></progress>
             </div>
             <br>
-            <a href="https://www.facebook.com/orest.krykh"><img class="favicons" src="/img/svg/facebook.svg"></a>
-            <a href="https://github.com/OrestKrykh"><img class="favicons" src="/img/svg/github.svg"></a>
-            <a href="https://plus.google.com/u/0/101383298731112511645"><img class="favicons" src="/img/svg/google+.svg"></a>
-            <a href="https://vk.com/orest.krykh"><img class="favicons" src="/img/svg/vk.svg"></a>
+            <div id="social-network">
+                <a href="https://www.facebook.com/orest.krykh"><img class="favicons" src="/img/svg/facebook.svg"></a>
+                <a href="https://github.com/OrestKrykh"><img class="favicons" src="/img/svg/github.svg"></a>
+                <a href="https://plus.google.com/u/0/101383298731112511645"><img class="favicons" src="/img/svg/google+.svg"></a>
+                <a href="https://vk.com/orest.krykh"><img class="favicons" src="/img/svg/vk.svg"></a>
+            </div>
         </section>
         <h1 class="headering">Contacts</h1>
     </main>
-    <footer id="contacts">
-     
+    <footer>
+     <div id="contacts">
+         <a href="mailto:orest.krykh@gmail.com">orest.krykh@gmail.com</a>
+         <p>phone: +380 98** **401</p> 
+     </div>
+     <div class="form">
+         <form action="https://formspree.io/orest.krykh@gmail.com" method="POST">
+            <label>Your name<br><input type="text" name="name" placeholder="Write your name" required></label>
+            <label>Your e-mail<br><input type="email" name="mail" placeholder="Write your e-mail" required></label>
+            <label>Your message<br><textarea type="text" name="messange" placeholder="Write your e-mail" required></textarea></label>
+            <button>Send</button>
+         </form>
+     </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

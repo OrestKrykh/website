@@ -75,10 +75,27 @@ main {
     background-color:white;
       
 }
+#social-network{
+    display:flex;
+    justify-content:center;
+}
 .favicons {
     padding-right:5px;
     height:45px;
     width:auto;
+}
+.favicons:hover {
+    padding-right:5px;
+    height:65px;
+    width:auto;
+}
+#contacts {
+    font-size:15px;
+    padding:30px;
+    color:white;
+    opacity:1.0;
+    display:flex;
+    align-items:center;
 }
 footer{
     margin:0 auto;
@@ -86,6 +103,18 @@ footer{
     height:300px;
     background-image:url("/img/background.jpg");
     background-position:center;
-    opacity:0.5
     
 }
+#contacts {
+    font-size:15px;
+    padding:30px;
+    color:white;
+    align-items:center;
+}
+.form {
+    color:white;
+    display:flex;
+    align-items:flex-end;
+    flex-direction:column;
+}
+
