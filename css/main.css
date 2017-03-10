@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     max-width:1200px;
     height:700px;
-    background-image:url("../background.jpg");
+    background-image:url("/img/background.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -71,11 +71,16 @@ main {
     font-size: 16px;
     width: 50px;
 }
+.favicons {
+    padding-right:5px;
+    height:45px;
+    width:auto;
+}
 footer{
     margin:0 auto;
     max-width:1500px;
     height:300px;
-    background-image:url("../background.jpg");
+    background-image:url("/img/background.jpg");
     background-position:center;
     opacity:0.5
     
