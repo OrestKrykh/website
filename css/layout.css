@@ -64,6 +64,10 @@ main {
 #personal-name {
     font-size:45px;
 }
+#screen {
+    border: 2px double white;
+    background-color:rgba(30,30,30,0.5);
+}
 .skills-style{
     padding:0;
     font-family: sans-serif;
