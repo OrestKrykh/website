@@ -84,11 +84,6 @@ main {
     height:45px;
     width:auto;
 }
-.favicons:hover {
-    padding-right:5px;
-    height:65px;
-    width:auto;
-}
 #contacts {
     font-size:15px;
     padding:30px;
@@ -97,22 +92,26 @@ main {
     display:flex;
     align-items:center;
 }
-footer{
+footer {
     margin:0 auto;
     max-width:600px;
     height:300px;
-    background-image:url("../background.jpg");
+    background-color:rgb(56, 56,56);
     background-position:center;
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
     
 }
 #contacts {
     font-size:15px;
     padding:30px;
     color:white;
+    flex-direction:column;
     align-items:center;
 }
 .form {
-    color:white;
+    color:black;
     display:flex;
     align-items:flex-end;
     flex-direction:column;
