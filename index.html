@@ -34,6 +34,9 @@
                             <li>
                                 <a href="#skills" class="smooth">Skills</a>
                             </li>
+                             <li>
+                                <a href="#gallery" class="smooth">Gallery</a>
+                            </li>
                             <li>
                                 <a href="#contacts" class="smooth">Contacts</a>
                             </li>
@@ -45,12 +48,13 @@
         <main>
             <div id="begin">
                 <div id="screen">
-                    <p class="first-heading">I`m web developer 
-</h2></div></div>
-<div class="h1">
-    <h2 id="about-me" class="headering">About Me</h2>
-</div>
-<div id="h2">
+                    <h2 class="first-heading">I`m web developer </h2>
+                </div>
+            </div>
+    <div class="h1">
+        <h2 id="about-me" class="headering">About Me</h2>
+    </div>
+    <div id="h2">
     <div>
         <img src="img/orest.png" id="my-own-photo" alt="orest krykh">
     </div>
@@ -67,62 +71,76 @@
 </div>
 <section>
     <div id="skills">
-        <h2 class="headering">Skills</h2>
-        <p class="skills-style">HTML</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-            70%
-          </div>
+        <h2 class="headering">Skills</h2><br>
+        <!-- ----------------------------------------------------- -->
+        <div id="my-skills">
+            <div class="skills-container">
+                <img class="image-container" src="img/svg/html-5.svg"><br>
+                <figcaption>Basic knowledge of markup HTML-5</figcaption>
+            </div>
+            <div class="skills-container">
+                <img class="image-container" src="img/svg/css-3.svg"><br>
+                 <figcaption>Basic knowledge of markup CSS-3</figcaption>
+            </div>
+            <div class="skills-container">
+              <img class="image-container" src="img/svg/js-file.svg"><br>
+              <figcaption>Basic knowledge of Javascript<br>And knowledge of library JQuery</figcaption>
+            </div>
+            <div class="skills-container">
+                
+            </div>
         </div>
-        <p class="skills-style">CSS</p>
-           <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-            60%
-          </div>
+</section>
+    <div>        
+        <div class="headering">
+            <h2 id="gallery">Gallery</h2>
         </div>
-        <p class="skills-style">Javascript</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
-            55%
-          </div>
-        </div>
-        <p class="skills-style">JQuery</p>
-         <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width: 46%;">
-            46%
-          </div>
-        </div>
-        <p class="skills-style">Bootstrap</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-            50%
-          </div>
+        <div class="gallery-1">
+            <div id="gallery-2" class="gallery-2" >
+                <div>
+                    <img class="second-image-container" src="../img/i-and-my-friends.jpg">  
+                </div>
+                <div>
+                    <img id="party" class="second-image-container" src="img/party-1.jpg">  
+                </div>
+                <div>
+                    <img class="second-image-container" src="img/screen.png">   
+                </div>
+            </div>
+            <div id="gallery-3" class="gallery-2">
+                <div>
+                    <img class="second-image-container" src="img/ph1.jpg">
+                </div>
+                <div>
+                    <img class="second-image-container" src="img/i-and-my-sister.jpg">
+                </div>
+                <div>
+                    <img class="second-image-container" src="img/ph2.jpg"> 
+                </div>
+            </div>
         </div>
     </div>
-    <br>
+<h1 class="headering">Contacts</h1>
     <div id="social-network">
         <a href="https://www.facebook.com/orest.krykh">
-            <img class="favicons" src="facebook.svg">
+            <img class="favicons" src="img/svg/facebook.svg">
         </a>
         <a href="https://github.com/OrestKrykh">
-            <img class="favicons" src="github.svg">
+            <img class="favicons" src="img/svg/github.svg">
         </a>
         <a href="https://plus.google.com/u/0/101383298731112511645">
-            <img class="favicons" src="google+.svg">
+            <img class="favicons" src="img/svg/google+.svg">
         </a>
         <a href="https://vk.com/orest.krykh">
-            <img class="favicons" src="vk.svg">
+            <img class="favicons" src="img/svg/vk.svg">
         </a>
     </div>
-</section>
-<h1 class="headering">Contacts</h1>
 </main>
 <footer>
     <div id="contacts">
-        <a href="mailto:orest.krykh@gmail.com">orest.krykh@gmail.com</a>
-        <p>phone: +380 98** **401</p>
+        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:orest.krykh@gmail.com"> orest.krykh@gmail.com</a>
+        <p><span class="glyphicon glyphicon-phone"></span> phone: +380 98** **401</p>
     </div>
-    <div class="form">
         <form action="https://formspree.io/orest.krykh@gmail.com" method="POST">
             <label>
                 Your name<br>
@@ -139,7 +157,7 @@
                 <textarea type="text" name="messange" placeholder="Write your e-mail" required></textarea>
             </label>
             <br>
-            <button>Send</button>
+            <button class="btn btn">Send</button>
         </form>
     </div>
 </footer>
